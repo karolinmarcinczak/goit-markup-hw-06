@@ -594,8 +594,18 @@ h5 {
   display: flex;
   width: 15px;
   height: 12px;
-  margin-top: 18px;
+  margin-top: 14px;
+  margin-bottom: 14px;
   margin-left: 12px
+}
+.icon-form:hover,
+.icon-form:focus {
+  fill: var(--blue);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+input
+.modal-form {
+  margin-top: 20px;
 }
 
 .modal-form-policy {
@@ -604,11 +614,6 @@ h5 {
   left: 57px;
 }
 
-.icon-form:hover,
-.icon-form:focus {
-  fill: var(--blue);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .modal-form-policy:checked + .modal-form-policy-text::before {
   background-color: var(--blue);
@@ -625,6 +630,9 @@ h5 {
 
 .modal-form-policy-text::before {
   display: inline-block;
+  color: #757575;
+  font-size: 12px;
+  line-height: 1.71;
   content: "";
   width: 16px;
   height: 15px;
@@ -658,6 +666,8 @@ h5 {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .submit-btn {
@@ -717,8 +727,14 @@ textarea:focus {
   display: flex;
   flex-direction: column;
   justify-content: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
+.label-input{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
 .form-comment {
   margin-top: 4px;
   padding: 12px 16px;
