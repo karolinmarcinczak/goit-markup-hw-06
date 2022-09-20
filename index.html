@@ -432,11 +432,20 @@
             </label>
           
             <div class="modal-form" method="post">
-              <input class="modal-form-policy visually-hidden" id="user-policy" type="checkbox">
+              <label for="user-policy" class="form-policy-text">
+                <input type="checkbox" id="user-policy" class="checkbox-policy" name="agreement" required/>
+                Oświadczam iż akceptuję&nbsp;<a href="#" class="policy-link">Regulamin&nbsp;</a> i&nbsp; <a href="#"
+                  class="policy-link">Politykę Prywatności</a>. 
+              </label>
+
+
+
+             <!-- <input class="modal-form-policy visually-hidden" id="user-policy" type="checkbox">
               <label for="user-policy" class="modal-form-policy-text">
                 Oświadczam iż akceptuję&nbsp;<a href="#" class="policy-link">Regulamin&nbsp;</a> i&nbsp; <a href="#"
                   class="policy-link">Politykę Prywatności</a>.</label>
-              </label>
+              </label> -->
+              
               <div class="button-container">
                 <button type="submit" class="submit-btn">Wyślij</button>
               </div>
