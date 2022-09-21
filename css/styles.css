@@ -737,14 +737,10 @@ position:relative;
 width: 16px;
 height: 15px;
 margin-right: 8px;
-appearance: none;
 display: block;
--moz-appearance: none;
--webkit-appearance: none;
+
 }
-.checkbox-policy:checked {
-background-image: url('../images/form-icons.svg#icon-form-tick');
-}
+
 
 .button-container {
   display: flex;
