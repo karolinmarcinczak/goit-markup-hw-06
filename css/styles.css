@@ -738,9 +738,7 @@ width: 16px;
 height: 15px;
 margin-right: 8px;
 display: block;
-
 }
-
 
 .button-container {
   display: flex;
@@ -833,3 +831,4 @@ textarea:focus {
   font-size: 12px;
   letter-spacing: 0.01em;
 }
+
